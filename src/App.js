@@ -1,10 +1,13 @@
 import React from "react";
 import "./App.css";
+import ImageList from "./components/ImageList/ImageList";
+import SearchBar from "./components/SearchBar/SearchBar";
 
 function App() {
 	return (
-		<div className="App">
-			<h1>Pics app 🚀 </h1>
+		<div className="app ui container" style={{ marginTop: "10px" }}>
+			<SearchBar />
+			<ImageList />
 		</div>
 	);
 }
